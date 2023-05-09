@@ -1,0 +1,22 @@
+.imagen {
+  display: flex;
+  align-content: center;
+  height: 180px;
+  width: 180px;
+}
+
+.conteinter {
+  display: flex;
+  justify-content: space-around;
+  /* flex-direction: row-reverse; */
+}
+
+.portfolio {
+  display: flex;
+  justify-content: start;
+}
+
+.idioma {
+  display: flex;
+  justify-content: end;
+}

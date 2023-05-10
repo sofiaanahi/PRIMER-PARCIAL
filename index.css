@@ -1,22 +1,102 @@
+.body {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: cursive;
+  border: 3px solid red;
+}
+
 .imagen {
-  display: flex;
-  align-content: center;
-  height: 180px;
+  border: 4.5px solid rgb(247, 247, 247);
   width: 180px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 10px white;
+  background-color: rgb(247, 247, 247);
+}
+
+.img {
+  display: flex;
+  justify-content: center;
 }
 
 .conteinter {
-  display: flex;
-  justify-content: space-around;
-  /* flex-direction: row-reverse; */
+   /* max-width: 1300px;
+    margin: auto;*/
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content:space-evenly;
+    grid-gap:3px;
+    border: 3px solid red;
+}
+
+.button {
+    border-radius: 5px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 10px white;
+    background-color: rgb(247, 247, 247);
+}
+.button:hover {
+    background-color: rgb(116, 109, 109);
 }
 
 .portfolio {
-  display: flex;
-  justify-content: start;
+  /*  display: flex;
+    justify-content: start;*/
+    order:1;
+    border: 3px solid red;
+}
+
+
+.programacion{
+    
+    order:2;
+    border: 3px solid red;
 }
 
 .idioma {
+   /* display: flex;
+    justify-content: space-around;*/
+    order:3;
+    border: 3px solid red;
+}
+
+
+
+
+
+
+/*
+
+
+
+.idioma {
+  display: grid;
+  border: 3px solid red;
+  order: 1;
+}
+
+.portfolio {
+  display: grid;
+  border: 3px solid red;
+  order: 2;
+}
+.programacion {
+  display: grid;
+  border: 6px solid red;
+  order: 3;
+}
+
+.lugares {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  border: 3px solid red;
+}
+
+.carrera {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  border: 3px solid red;
 }

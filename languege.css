@@ -1,0 +1,59 @@
+.body {
+  background: linear-gradient(to right, #bc4e9c, #f80759);
+  font-family: cursive;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px white;
+}
+
+.section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.sec1 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: end;
+}
+
+.nivel {
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px white;
+}
+
+.sec2 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.sec3 {
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.idioma {
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px white;
+}

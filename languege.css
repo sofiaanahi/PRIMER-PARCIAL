@@ -57,3 +57,12 @@
   border: 2px solid white;
   box-shadow: 2px 2px 10px white;
 }
+.button {
+  border-radius: 5px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 10px white;
+  background-color: rgb(247, 247, 247);
+}
+.button:hover {
+  background-color: rgb(116, 109, 109);
+}
